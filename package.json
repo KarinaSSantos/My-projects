@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Meu card Flip",
+  "main": "gulpfile.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4",
+    "node-gyp": "8.1.0"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21",
+    "browser-sync": "^2.26.7",
+    "countup.js": "^2.0.7",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^6.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^3.2.0",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-imagemin": "^1.2.1",
+    "gulp-replace": "^1.0.0"
+  }
+}
